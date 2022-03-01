@@ -7,22 +7,9 @@
 body {
    background-color: aquamarine;
     font-size: 18px;
-
 }
 
-#Nascimento {
-       color: rgb(230, 20, 20);
-       
-   }
-
-
-#Formação {
-       color: rgb(0, 56, 241);
-}
-
-#Curiosidade {   
-    color: rgb(30, 109, 30);   
-   }
+   /* Parte CSS - estilizando fotos */
 
 .fotosurf {
    border-style: dashed;
@@ -31,6 +18,15 @@ body {
 .fotoperfil {
    border-style: dashed;
 }
+
+.fotomacae {
+   border-style: dashed;
+}
+
+.fotoeumedico {
+   border-style: dashed;
+}
+
 /* Parte 2 CSS - estilizando texto geral e da lista */
 
 p {
@@ -45,7 +41,19 @@ li {
    text-align: left;
    text-decoration: underline;
 }
+#Nascimento {
+   color: rgb(230, 20, 20);
+   
+}
 
+#Formação {
+   color: rgb(0, 56, 241);
+}
+
+#Curiosidade {   
+color: rgb(30, 109, 30);   
+}
+/* Parte 4 CSS - Criando blocos */
 .edicaotexto {
    background-color: bisque;
    width: 40em;
