@@ -5,25 +5,22 @@
 }
 
 body {
-    background-color: aquamarine;
+   background-color: aquamarine;
     font-size: 18px;
 
 }
 
 #Nascimento {
-    background-color: bisque;
-    color: rgb(230, 20, 20);
+       color: rgb(230, 20, 20);
        
    }
 
 
 #Formação {
-    background-color: bisque;
-    color: rgb(0, 56, 241);
+       color: rgb(0, 56, 241);
 }
 
-#Curiosidade {
-    background-color: bisque;           
+#Curiosidade {   
     color: rgb(30, 109, 30);   
    }
 
@@ -47,4 +44,11 @@ li {
    line-height: 40px;
    text-align: left;
    text-decoration: underline;
+}
+
+.edicaotexto {
+   background-color: bisque;
+   width: 40em;
+   height: 25em;
+   overflow: auto;
 }
