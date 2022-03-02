@@ -1,4 +1,9 @@
-   /* Parte 1 CSS - Estilizando cores de texto, paragrafos e fundo */
+   /* Parte  CSS - Estilizando cores de texto, paragrafos e fundo */
+   
+   h1 {
+      top: 18px;
+   }
+   
    h2 {
     color: rgb(50, 118, 228);
     font-size: 2em;
@@ -21,13 +26,13 @@ body {
 
 .fotomacae {
    border-style: dashed;
-}
+   }
 
 .fotoeumedico {
    border-style: dashed;
 }
 
-/* Parte 2 CSS - estilizando texto geral e da lista */
+/* Parte  CSS - estilizando texto geral e da lista */
 
 p {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -43,20 +48,23 @@ li {
 }
 #Nascimento {
    color: rgb(230, 20, 20);
-   
-}
+   }
 
 #Formação {
    color: rgb(0, 56, 241);
 }
 
 #Curiosidade {   
-color: rgb(30, 109, 30);   
+color: rgb(25, 231, 25);   
 }
-/* Parte 4 CSS - Criando blocos */
-.edicaotexto {
+/* Parte  CSS - Criando blocos */
+
+.blocomacae {
    background-color: bisque;
-   width: 40em;
-   height: 25em;
-   overflow: auto;
+}
+.blocoformação {
+   background-color: rgba(5, 221, 41, 0.472);
+}
+.blococuriosidade {
+   background-color: rgba(11, 70, 180, 0.527);
 }
