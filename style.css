@@ -73,21 +73,12 @@ body {
    height: 550px;   
    position: relative;  
 }
-/* Parte  CSS - estilizando texto geral e da lista */
+/* Parte  CSS - estilizando texto geral*/
 
 p {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
 
-
-li {
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-weight: bolder; 
-   font-style: italic;
-   line-height: 40px;
-   text-align: left;
-   text-decoration: underline;
-}
 .Nascimento {
    color: rgb(230, 20, 20);
    position: absolute;
@@ -111,6 +102,25 @@ li {
    
 }
 
+
+/* Parte CSS estilizando lista */
+
+li {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder; 
+   font-style: italic;
+   line-height: 40px;
+   text-align: left;
+   text-decoration: underline;
+}
+
+.estilo {
+   background-color: aliceblue;
+   margin: auto;
+}
+
 .Habilidade {
-   color: burlywood ;
+   color: burlywood;
+   position: absolute;
+   left: 330px;
 }
