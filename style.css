@@ -26,6 +26,7 @@ body {
 
 .fotomacae {
    border-style: dashed;
+   float: left;
    }
 
 .fotoeumedico {
@@ -36,7 +37,9 @@ body {
 
 p {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   right: 30px;
 }
+
 
 li {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,14 +60,29 @@ li {
 #Curiosidade {   
 color: rgb(25, 231, 25);   
 }
+
+#Habilidade {
+   color: burlywood ;
+}
+
 /* Parte  CSS - Criando blocos */
 
 .blocomacae {
    background-color: bisque;
+   height: 550px;
+
 }
+
+
 .blocoformação {
    background-color: rgba(5, 221, 41, 0.472);
 }
+
 .blococuriosidade {
    background-color: rgba(11, 70, 180, 0.527);
+}
+
+.blocohabilidade {
+   background-color: rgba(102, 51, 153, 0.719);
+   
 }
